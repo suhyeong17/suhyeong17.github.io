@@ -2,8 +2,8 @@
 main:
   - title: "Categories"
     url: /categories/
-  - title: "Classical Mechanics"
-    url: /cm/
+  - title: "Tags"
+    url: /tags/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

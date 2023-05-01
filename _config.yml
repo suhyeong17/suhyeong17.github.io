@@ -59,11 +59,11 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : "lunr" # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : false
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -106,13 +106,16 @@ analytics:
 author:
   name             : "Suhyeong Hong"
   avatar           : "/assets/images/blog_avatar.jpg"
-  bio              : "물리학을 공부하는 학생입니다."
+  bio              : "물리학을 공부하는 학생입니다.<br>I'm an undergraduate physics students"
   location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:roy021017@gmail.com
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/suhyeong17"
     - #label: "Website"
       #icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,9 +125,6 @@ author:
     - #label: "Facebook"
       #icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/suhyeong17"
     - #label: #"Instagram"
       #icon: #"fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -132,15 +132,15 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/suhyeong17"
     - #label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
       # url:
     - #label: "Facebook"
       #icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/suhyeong17"
     - #label: "GitLab"
       #icon: "fab fa-fw fa-gitlab"
       # url:
