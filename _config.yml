@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Suhyeong Hong"
   avatar           : "/assets/images/blog_avatar.jpg"
-  bio              : "물리학을 공부하는 학생입니다.<br>I'm an undergraduate physics student"
+  bio              : "물리학을 공부하는 학생입니다.<br>I'm a physics student."
   location         : "Republic of Korea"
   email            :
   links:
@@ -286,7 +286,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
