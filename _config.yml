@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Suhyeong Hong"
+  name             : "Suhyeong"
   avatar           : "/assets/images/blog_avatar.jpg"
-  bio              : "물리학을 공부하는 학생입니다.<br>I'm a physics student."
+  bio              : "물리학을 공부하는 학생입니다."
   location         : "Republic of Korea"
   email            :
   links:
